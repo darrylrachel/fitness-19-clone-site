@@ -63,11 +63,13 @@ body {
 .hero {
   background: url(https://www.fitness19.com/wp-content/themes/fitness19/img/home-bg2.jpg);
   background-size: cover;
-  height: 100vh;
+  height: 810px
+    /*100vh;*/
 }
 
 .hero-caption {
   margin: 0 auto;
+  padding-bottom: 80px;
   padding-top: 110px;
   width: 70%;
 }
@@ -94,8 +96,7 @@ body {
 .cta {
   background-color: rgba(0, 0, 0, .5);
   display: block;
-  margin: 0 auto;
-  /* margin: 0; */
+  margin: 0 auto 50px auto;
   padding: 43px 100px;
   width: 587px;
 }
@@ -145,4 +146,71 @@ body {
 .club {
   background-color: #f0f0f0;
   color: #666;
+}
+
+/*****************************
+******* end navigation *******
+******************************/
+.services {
+  margin-top: 75px;
+}
+
+.services-container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+section .second-section {
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.redline {
+  border-bottom: 4px solid #bc2738;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.section-caption {
+  color: #868686;
+  font-family: 'Source Sans Pro';
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 22px;
+  margin: 20px 0 60px;
+  text-align: center;
+}
+
+.box {
+  float: left;
+  margin: 0 25;
+  padding-right: 47px;
+  width: 350px;
+}
+
+.box img {
+  border-radius: 2px;
+  height: 160px;
+  margin: 20px auto;
+  width: 300px
+}
+
+.box img .classes {
+  background-image: url(https://www.fitness19.com/wp-content/uploads/2014/07/photodune-325092-group-of-people-lifting-weights-in-gym-xs-1-300x161.jpg);
+}
+
+.box img .contract {
+  background-image: url(https://www.fitness19.com/wp-content/uploads/2015/01/no-contract.jpg);
+}
+
+.box img .personal-training {
+  background-image: url(https://www.fitness19.com/wp-content/uploads/2014/07/photodune-5748280-personal-trainer-s1-300x161.jpg);
+}
+
+.box h3,
+.box p {
+  text-align: center;
 }
